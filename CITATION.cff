@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use CHRONOS, please cite the paper below."
+title: "CHRONOS"
+repository-code: "https://github.com/pacslab/chronos"
+license: MIT
+authors:
+  - family-names: Pourali
+    given-names: Alireza
+  - family-names: Boukani
+    given-names: Arian
+  - family-names: Khazaei
+    given-names: Hamzeh
+preferred-citation:
+  type: article
+  title: "Chronos: A Unified Framework for Predicting Training Time and Convergence in Deep Learning"
+  authors:
+    - family-names: Pourali
+      given-names: Alireza
+    - family-names: Boukani
+      given-names: Arian
+    - family-names: Khazaei
+      given-names: Hamzeh
+  journal: "Transactions on Machine Learning Research"
+  issn: "2835-8856"
+  year: 2026
