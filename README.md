@@ -1,4 +1,4 @@
-# 🕒 CHRONOS: Predicting Training Time and Convergence in Deep Learning
+# 🕒 CHRONOS: A Unified Framework for Predicting Training Time and Convergence in Deep Learning
 
 <p align="center">
   <img src="./docs/chronos.png" alt="Chronos logo" width="60%" height="40%">
