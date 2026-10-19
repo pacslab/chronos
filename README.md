@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Paper-TMLR%202026-blue" alt="TMLR 2026">
+  <a href="https://openreview.net/pdf?id=gDLPOEjQTH"><img src="https://img.shields.io/badge/Paper-TMLR%202026-blue" alt="TMLR 2026"></a>
   <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python 3.11">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/PACS%20Lab-York%20University-red" alt="PACS Lab">
@@ -17,7 +17,8 @@
 <p align="center">
   Alireza Pourali, Arian Boukani, Hamzeh Khazaei<br>
   PACS Lab, York University<br>
-  <i>Transactions on Machine Learning Research (TMLR), 2026</i>
+  <i>Transactions on Machine Learning Research (TMLR), 2026</i><br>
+  <a href="https://openreview.net/pdf?id=gDLPOEjQTH"><b>Paper</b></a>
 </p>
 
 ---
@@ -114,7 +115,7 @@ MAPE (%) of the predicted convergence epoch; lower is better. The NTK-guided bas
 2. The probe adds information that static descriptors lack. Removing the three probe features raises the average convergence MAPE from 22.13% to 31.68%. Constant mean and median predictors reach 42.80% and 42.13%.
 3. Larger probe batches do not consistently help. For DenseNet-121, MobileNetV2, ResNet-50, VGG-16, DeiT-Tiny and ViT, the smallest probe batch gave the lowest error. We suggest 32 to 64 samples for CNNs and Transformers, and 64 to 128 for token-mixing MLPs.
 4. The hourly price of a GPU is a poor guide to the total cost of a run. For ViT on CIFAR-100, a consumer RTX 5090 converged faster and more cheaply than an A100, V100 or L40S. For ResNet-50 on TinyImageNet, where the end-to-end prediction error was 9.4%, the T4 had the lowest hourly rate, but the A40 reached convergence at a lower total cost. The V100 run was the most expensive.
-5. The feature representation also transfers to text. On LSTM, GRU, BiLSTM and GNMT models trained on IMDB, AG News, SST-2, WMT14 En-De and CNN/DailyMail, the iteration-time MAPE is 6.18% (see the appendix of the paper).
+5. The feature representation also transfers to text. On LSTM, GRU, BiLSTM and GNMT models trained on IMDB, AG News, SST-2, WMT14 En-De and CNN/DailyMail, the iteration-time MAPE is 6.18% (see the appendix of the [paper](https://openreview.net/pdf?id=gDLPOEjQTH)).
 6. XGBoost was chosen by ablation. It reaches an average iteration-time MAPE of 13.70%, compared with 18.41% for a random forest and 20.71% for an MLP regressor.
 
 ## Installation
@@ -215,7 +216,8 @@ CHRONOS was evaluated on single-GPU, full-parameter training from scratch, mostl
   author  = {Pourali, Alireza and Boukani, Arian and Khazaei, Hamzeh},
   journal = {Transactions on Machine Learning Research},
   issn    = {2835-8856},
-  year    = {2026}
+  year    = {2026},
+  url     = {https://openreview.net/forum?id=gDLPOEjQTH}
 }
 ```
 
